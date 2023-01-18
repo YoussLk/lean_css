@@ -1,0 +1,27 @@
+p {
+  background-color: beige;
+  height: 100px;
+  /* overflow: scroll; */
+  display: inline-block;
+  width: 20px;
+}
+.container div {
+  background-color: green;
+  margin: 2px;
+  /* display: inline-block; */
+  height: 100px;
+  text-align: center;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+}
+.container {
+  background-color: blue;
+  display: flex;
+  justify-content: space-evenly;
+  height: 300px;
+  align-items: center;
+}

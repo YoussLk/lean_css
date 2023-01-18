@@ -9,7 +9,7 @@ p {
   background-color: green;
   margin: 2px;
   /* display: inline-block; */
-  height: 100px;
+  height: 75px;
   text-align: center;
   width: 100px;
   display: flex;
@@ -17,11 +17,27 @@ p {
   border-radius: 10px;
   text-align: center;
   justify-content: center;
+  justify-content: space-evenly;
+
 }
 .container {
   background-color: blue;
-  display: flex;
+  display: block;
   justify-content: space-evenly;
   height: 300px;
   align-items: center;
 }
+p {
+    justify-content: space-evenly;
+    height: 50px;
+    width: 50px;
+    background: red;
+    color: white;
+    justify-content: center;
+    border: 5px solid;
+    justify-content: space-evenly;
+    border-radius: 10px;
+
+
+  }
+
